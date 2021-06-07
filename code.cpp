@@ -1,5 +1,6 @@
 class a
-{public:
+{
+public:
 int a,b;
 };
 
