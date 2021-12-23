@@ -3,12 +3,18 @@ A first attempt to write a program using a class and an object from it.
 
 See readme.txt for details
 
-Code space: 65 Bytes
+Code extent: 90 Bytes
 
 ---------------
 
 Version history:
 ---------
+
+Version 2.0
+
+New implementation of usage of a class and its object.
+Implemented user interaction to make the usage of a debugger for working with the program obsolete.
+
 
 Version 1.2
 
