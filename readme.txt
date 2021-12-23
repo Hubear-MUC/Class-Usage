@@ -1,53 +1,40 @@
-ClassUsage 1.2
+ClassUsage 2.0
 --------------
 
-First usage of the class concept within this project of knowledge regaining in coding.
+To make the program able to do user interaction the previously developed destructor had to be modified to this:
 
-1   class a
-2   {
-3   public:
-4   int a,b;
-5   };
-6 
-7   a o;int r;
-8
-9   main()
-10  {
-11  r=o.a+o.b;
-12  }
+1  number::~number()
+2  {
+3    out(c+d);
+4  }
 
+The previous version with the  return() - statement caused too much consumption of code space which was intended to be saved.
 
 
 Usage:
 
-The usage and the working of this program are very simple. In fact it is just a replica of the addition- programs published earlier.
+Just invoke the program.
 
-Just set breakpoints at lines 10 and 12 and run the program.
+As the addition- programs done earlier it will ask you for two numbers by using a prompt (in :) and then add them together.
 
-Then set the variables
+The result will be shown with an output- prompt (out :)
 
-  o.a
-  
-and
+The special thing of this program is the usage of a class which contains the data fields for storing the two numbers.
 
-  o.b
-  
-to the values that should be added together.
+The input routine for asking for the two input- numbers is done by the constructor, the output by the destructor, so indeed a complete usage of a class is implemented.
 
-Mind that this addition just can be done with integer- numbers due to the limited code space.
-
-continue the program to the breakpoint at line 12 and examine the result in variable r.
-
-
-The speciality of this program is that the numbers were stored inside an object, not just in simple variables.
-
-Still there is no implementation of a method doing the actual calculation because the new code space was rather used to make the code readable more easy. This method should be implemented in a later version of the program.
 
 
 
 
 Version history
 ---------------
+
+Version 2.0
+
+New implementation of usage of a class and its object.
+Implemented user interaction to make the usag of a debugger for working with the program obsolete.
+
 
 Version 1.2
 

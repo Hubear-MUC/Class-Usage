@@ -1,12 +1,8 @@
-class a
-{
-public:
-int a,b;
-};
+#include "incls.h"
 
-a o;int r;
-
+class number*ob;
 main()
 {
-r=o.a+o.b;
+ob = new number(in(), in());
+delete (ob);
 }
